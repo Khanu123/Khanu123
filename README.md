@@ -15,15 +15,24 @@ My current focus areas are:
 - Network scanning in authorized lab environments
 - Secure handling of credentials and configuration
 
-## Featured Projects
+## Flagship Cybersecurity Projects
 
 | Project | Focus |
 | --- | --- |
-| [Threat Detection Log Analyzer](https://github.com/Khanu123/Threat-Detection-Log-Analyzer) | Python log analysis, suspicious login detection, brute-force patterns |
-| [Web Application Security Scanner](https://github.com/Khanu123/Web-app-security-scanner) | Flask security scanner prototype for authorized testing |
-| [Nmap Port Scanner](https://github.com/Khanu123/nmap-port-scanner) | Python wrapper for authorized port scanning and reporting |
-| [Cuckoo Sandbox Setup](https://github.com/Khanu123/cuckoo-sandbox-setup) | Malware-analysis lab documentation and isolation guidance |
-| [Cyber Security Tools](https://github.com/Khanu123/cyber-security-tools) | Defensive Python security utilities and learning labs |
+| [Sentinel SOC Dashboard](https://github.com/Khanu123/sentinel-soc-dashboard) | Alert triage, SOC case prioritization, HTML/CSV reporting |
+| [Cloud IAM Risk Analyzer](https://github.com/Khanu123/cloud-iam-risk-analyzer) | AWS IAM least-privilege review and cloud security risk scoring |
+| [Web Security Posture Auditor](https://github.com/Khanu123/web-security-posture-auditor) | Passive HTTPS and security-header auditing for appsec reviews |
+| [Phishing Email Analyzer](https://github.com/Khanu123/phishing-email-analyzer) | Email header, URL, authentication, and phishing-risk analysis |
+| [Vulnerability Intelligence Prioritizer](https://github.com/Khanu123/vuln-intel-prioritizer) | CVE prioritization using CVSS, exploit status, exposure, and asset criticality |
+
+## Additional Projects
+
+| Project | Focus |
+| --- | --- |
+| [Threat Detection Log Analyzer](https://github.com/Khanu123/Threat-Detection-Log-Analyzer) | Python log analysis and suspicious login detection |
+| [Web Application Security Scanner](https://github.com/Khanu123/Web-app-security-scanner) | Flask security scanner prototype |
+| [Nmap Port Scanner](https://github.com/Khanu123/nmap-port-scanner) | Authorized port scanning and reporting |
+| [Cuckoo Sandbox Setup](https://github.com/Khanu123/cuckoo-sandbox-setup) | Malware-analysis lab setup notes |
 | [Secrets Hygiene Demo](https://github.com/Khanu123/admin-credentials) | Safe credential handling and `.env` hygiene |
 
 ## Skills
