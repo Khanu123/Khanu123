@@ -51,6 +51,10 @@ My current focus areas are:
 
 I am developing a stronger portfolio for junior cybersecurity, SOC analyst, IT security, and Python automation roles. My goal is to keep improving each project with better tests, clearer reports, safer defaults, and more realistic examples.
 
+## Featured Writeup
+
+[How I Built a SOC Alert Triage Tool](https://github.com/Khanu123/sentinel-soc-dashboard/blob/main/docs/how-i-built-soc-alert-triage-tool.md)
+
 ## Contact
 
 - Portfolio: [khanu123.github.io](https://khanu123.github.io)
