@@ -1,39 +1,54 @@
 # Umar Khan Muhammad
 
-Cybersecurity student focused on Python, defensive security, log analysis, and ethical security tooling.
+Cyber Security graduate building practical defensive security tools with Python.
 
-## About Me
+I use GitHub as my public learning and project workspace: I build, document, test, and improve small security tools that map to real junior SOC, cyber analyst, cloud security, and AppSec workflows.
 
-I am building practical cybersecurity projects that show how I approach real security problems: understanding logs, writing Python tools, documenting safe workflows, and improving systems step by step.
+## Current Focus
 
-My current focus areas are:
+- SOC alert triage and analyst reporting
+- Cloud IAM least-privilege review
+- Phishing email investigation
+- Vulnerability prioritisation
+- Passive web security posture checks
+- Writing clearer case studies, report previews, and interview-ready documentation
 
-- Blue-team security and SOC-style investigation
-- Python automation
-- Log analysis and detection logic
-- Web application security fundamentals
-- Network scanning in authorized lab environments
-- Secure handling of credentials and configuration
+## Recent Portfolio Updates
+
+Updated July 2026:
+
+- Rebuilt my portfolio site: [khanu123.github.io](https://khanu123.github.io)
+- Added a hosted SOC demo report: [Sentinel SOC Demo](https://khanu123.github.io/sentinel-soc-demo.html)
+- Added report-preview screenshots to flagship repositories
+- Added a downloadable cybersecurity CV to my portfolio
+- Archived older beginner projects so the profile is more focused
+- Added case studies and interview notes to key projects
+
+## Active Roadmap
+
+I am actively improving these projects over time:
+
+| Project | Current Improvement Area |
+| --- | --- |
+| [Sentinel SOC Dashboard](https://github.com/Khanu123/sentinel-soc-dashboard) | Time-window grouping, richer case evidence, dashboard polish |
+| [Cloud IAM Risk Analyzer](https://github.com/Khanu123/cloud-iam-risk-analyzer) | Terraform/IaC support and SARIF-style output |
+| [Phishing Email Analyzer](https://github.com/Khanu123/phishing-email-analyzer) | URL reputation enrichment and attachment hash extraction |
+| [Vulnerability Intelligence Prioritizer](https://github.com/Khanu123/vuln-intel-prioritizer) | EPSS-style scoring and CSV import/export |
+| [Web Security Posture Auditor](https://github.com/Khanu123/web-security-posture-auditor) | More header checks and clearer remediation guidance |
 
 ## Flagship Cybersecurity Projects
 
 | Project | Focus |
 | --- | --- |
-| [Sentinel SOC Dashboard](https://github.com/Khanu123/sentinel-soc-dashboard) | Alert triage, SOC case prioritization, HTML/CSV reporting |
-| [Cloud IAM Risk Analyzer](https://github.com/Khanu123/cloud-iam-risk-analyzer) | AWS IAM least-privilege review and cloud security risk scoring |
-| [Web Security Posture Auditor](https://github.com/Khanu123/web-security-posture-auditor) | Passive HTTPS and security-header auditing for appsec reviews |
-| [Phishing Email Analyzer](https://github.com/Khanu123/phishing-email-analyzer) | Email header, URL, authentication, and phishing-risk analysis |
-| [Vulnerability Intelligence Prioritizer](https://github.com/Khanu123/vuln-intel-prioritizer) | CVE prioritization using CVSS, exploit status, exposure, and asset criticality |
+| [Sentinel SOC Dashboard](https://github.com/Khanu123/sentinel-soc-dashboard) | Alert triage, SOC case prioritisation, MITRE context, HTML/CSV/JSON/Markdown reports |
+| [Cloud IAM Risk Analyzer](https://github.com/Khanu123/cloud-iam-risk-analyzer) | AWS IAM least-privilege review, public principal detection, MFA condition checks |
+| [Phishing Email Analyzer](https://github.com/Khanu123/phishing-email-analyzer) | Email header analysis, suspicious URLs, SPF/DKIM/DMARC failure review |
+| [Vulnerability Intelligence Prioritizer](https://github.com/Khanu123/vuln-intel-prioritizer) | CVE risk scoring using severity, exploit status, exposure, and asset criticality |
+| [Web Security Posture Auditor](https://github.com/Khanu123/web-security-posture-auditor) | Passive HTTPS and security-header auditing for AppSec reviews |
 
-## Additional Projects
+## Featured Writeup
 
-| Project | Focus |
-| --- | --- |
-| [Threat Detection Log Analyzer](https://github.com/Khanu123/Threat-Detection-Log-Analyzer) | Python log analysis and suspicious login detection |
-| [Web Application Security Scanner](https://github.com/Khanu123/Web-app-security-scanner) | Flask security scanner prototype |
-| [Nmap Port Scanner](https://github.com/Khanu123/nmap-port-scanner) | Authorized port scanning and reporting |
-| [Cuckoo Sandbox Setup](https://github.com/Khanu123/cuckoo-sandbox-setup) | Malware-analysis lab setup notes |
-| [Secrets Hygiene Demo](https://github.com/Khanu123/admin-credentials) | Safe credential handling and `.env` hygiene |
+[How I Built a SOC Alert Triage Tool](https://github.com/Khanu123/sentinel-soc-dashboard/blob/main/docs/how-i-built-soc-alert-triage-tool.md)
 
 ## Skills
 
@@ -44,16 +59,14 @@ My current focus areas are:
 - Nmap
 - Log analysis
 - Web security fundamentals
+- AWS IAM security concepts
+- MITRE ATT&CK
 - Technical documentation
 - Defensive cybersecurity workflows
 
 ## What I Am Working Toward
 
-I am developing a stronger portfolio for junior cybersecurity, SOC analyst, IT security, and Python automation roles. My goal is to keep improving each project with better tests, clearer reports, safer defaults, and more realistic examples.
-
-## Featured Writeup
-
-[How I Built a SOC Alert Triage Tool](https://github.com/Khanu123/sentinel-soc-dashboard/blob/main/docs/how-i-built-soc-alert-triage-tool.md)
+I am developing a stronger portfolio for junior cybersecurity, SOC analyst, IT security, cloud security, and Python automation roles. My goal is to keep improving each project with better tests, clearer reports, safer defaults, realistic examples, and regular commits that show steady progress.
 
 ## Contact
 
