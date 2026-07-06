@@ -11,6 +11,7 @@ I use GitHub as my public learning and project workspace: I build, document, tes
 - Phishing email investigation
 - Vulnerability prioritisation
 - Passive web security posture checks
+- Defensive research notes and detection fundamentals
 - Writing clearer case studies, report previews, and interview-ready documentation
 
 ## Recent Portfolio Updates
@@ -19,6 +20,8 @@ Updated July 2026:
 
 - Rebuilt my portfolio site: [khanu123.github.io](https://khanu123.github.io)
 - Added a hosted SOC demo report: [Sentinel SOC Demo](https://khanu123.github.io/sentinel-soc-demo.html)
+- Upgraded [Sentinel SOC Dashboard](https://github.com/Khanu123/sentinel-soc-dashboard) with richer sample logs, MITRE mapping, analyst notes, false-positive handling, and generated report examples
+- Added [Security Research Notes](https://github.com/Khanu123/security-research-notes) for OWASP, phishing, Windows event logs, Splunk/Sigma/YARA basics, cloud IAM, and vulnerability management
 - Added report-preview screenshots to flagship repositories
 - Added a downloadable cybersecurity CV to my portfolio
 - Archived older beginner projects so the profile is more focused
@@ -35,6 +38,7 @@ I am actively improving these projects over time:
 | [Phishing Email Analyzer](https://github.com/Khanu123/phishing-email-analyzer) | URL reputation enrichment and attachment hash extraction |
 | [Vulnerability Intelligence Prioritizer](https://github.com/Khanu123/vuln-intel-prioritizer) | EPSS-style scoring and CSV import/export |
 | [Web Security Posture Auditor](https://github.com/Khanu123/web-security-posture-auditor) | More header checks and clearer remediation guidance |
+| [Security Research Notes](https://github.com/Khanu123/security-research-notes) | Short defensive notes, detection basics, and weekly learning updates |
 
 ## Flagship Cybersecurity Projects
 
@@ -45,6 +49,7 @@ I am actively improving these projects over time:
 | [Phishing Email Analyzer](https://github.com/Khanu123/phishing-email-analyzer) | Email header analysis, suspicious URLs, SPF/DKIM/DMARC failure review |
 | [Vulnerability Intelligence Prioritizer](https://github.com/Khanu123/vuln-intel-prioritizer) | CVE risk scoring using severity, exploit status, exposure, and asset criticality |
 | [Web Security Posture Auditor](https://github.com/Khanu123/web-security-posture-auditor) | Passive HTTPS and security-header auditing for AppSec reviews |
+| [Security Research Notes](https://github.com/Khanu123/security-research-notes) | OWASP, phishing, Windows logs, Splunk/Sigma/YARA, cloud IAM, and vulnerability management notes |
 
 ## Featured Writeup
 
@@ -63,6 +68,15 @@ I am actively improving these projects over time:
 - MITRE ATT&CK
 - Technical documentation
 - Defensive cybersecurity workflows
+
+## Currently Learning
+
+- Microsoft Sentinel alert triage concepts
+- Splunk search and detection logic
+- Sigma rule structure
+- YARA basics for defensive file triage
+- AWS IAM least-privilege review
+- Python security automation and report generation
 
 ## What I Am Working Toward
 
