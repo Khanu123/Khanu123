@@ -88,6 +88,9 @@ I am actively improving these projects over time:
 | [Microsoft Windows Defender and Firewall for Beginners](https://coursera.org/verify/H8GM57R87CVS) | Endpoint protection and Windows firewall fundamentals |
 | [Wireshark for Beginners: Capture Packets](https://coursera.org/verify/EDULQYP9DFE7) | Packet capture and network traffic analysis basics |
 | [Analyze Network Traffic with TCPDump](https://coursera.org/verify/UFBWZA5WMYJU) | Command-line packet capture and network traffic review |
+| Forage Cybersecurity Job Simulation - Phishing Simulation | Phishing simulation design and interpreting phishing simulation results |
+| Forage Cybersecurity Job Simulation - Risk Assessment | APT breach impact analysis and cybersecurity risk assessment |
+| Forage Cybersecurity Analyst Job Simulation - IAM | IAM fundamentals, IAM strategy assessment, custom IAM solutions, platform integration |
 
 ## What I Am Working Toward
 
