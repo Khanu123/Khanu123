@@ -78,6 +78,17 @@ I am actively improving these projects over time:
 - AWS IAM least-privilege review
 - Python security automation and report generation
 
+## Certifications
+
+| Certification | Focus |
+| --- | --- |
+| [Google Cybersecurity Professional Certificate](https://coursera.org/verify/professional-cert/MGEFGHD22PJS) | Security foundations, Linux, SQL, SIEM concepts, IDS, detection and response, Python automation |
+| [Microsoft Cybersecurity Analyst Professional Certificate](https://coursera.org/verify/professional-cert/TRVDNZ7C85RY) | Microsoft Defender, Azure AD, networking, cloud security, compliance, SC-900 preparation |
+| [CompTIA a+ Cyber](https://coursera.org/verify/FBFGGP5VB2VV) | IT and cybersecurity foundations |
+| [Microsoft Windows Defender and Firewall for Beginners](https://coursera.org/verify/H8GM57R87CVS) | Endpoint protection and Windows firewall fundamentals |
+| [Wireshark for Beginners: Capture Packets](https://coursera.org/verify/EDULQYP9DFE7) | Packet capture and network traffic analysis basics |
+| [Analyze Network Traffic with TCPDump](https://coursera.org/verify/UFBWZA5WMYJU) | Command-line packet capture and network traffic review |
+
 ## What I Am Working Toward
 
 I am developing a stronger portfolio for junior cybersecurity, SOC analyst, IT security, cloud security, and Python automation roles. My goal is to keep improving each project with better tests, clearer reports, safer defaults, realistic examples, and regular commits that show steady progress.
