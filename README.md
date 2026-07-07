@@ -7,6 +7,9 @@ I use GitHub as my public learning and project workspace: I build, document, tes
 ## Current Focus
 
 - SOC alert triage and analyst reporting
+- Splunk SPL detection logic
+- Microsoft Sentinel KQL analytics
+- Azure cloud security posture review
 - Cloud IAM least-privilege review
 - Phishing email investigation
 - Vulnerability prioritisation
@@ -19,6 +22,9 @@ I use GitHub as my public learning and project workspace: I build, document, tes
 Updated July 2026:
 
 - Rebuilt my portfolio site: [khanu123.github.io](https://khanu123.github.io)
+- Added [Splunk Detection Lab](https://github.com/Khanu123/splunk-detection-lab) with SPL searches, synthetic auth logs, analyst playbooks, and tests
+- Added [Microsoft Sentinel SIEM Lab](https://github.com/Khanu123/microsoft-sentinel-siem-lab) with KQL detections, sample logs, incident triage notes, and tests
+- Added [Azure Security Posture Reviewer](https://github.com/Khanu123/azure-security-posture-reviewer) with storage, NSG, Key Vault, public IP checks, remediation guidance, and tests
 - Added a hosted SOC demo report: [Sentinel SOC Demo](https://khanu123.github.io/sentinel-soc-demo.html)
 - Upgraded [Sentinel SOC Dashboard](https://github.com/Khanu123/sentinel-soc-dashboard) with richer sample logs, MITRE mapping, analyst notes, false-positive handling, and generated report examples
 - Added [Security Research Notes](https://github.com/Khanu123/security-research-notes) for OWASP, phishing, Windows event logs, Splunk/Sigma/YARA basics, cloud IAM, and vulnerability management
@@ -34,6 +40,9 @@ I am actively improving these projects over time:
 | Project | Current Improvement Area |
 | --- | --- |
 | [Sentinel SOC Dashboard](https://github.com/Khanu123/sentinel-soc-dashboard) | Time-window grouping, richer case evidence, dashboard polish |
+| [Splunk Detection Lab](https://github.com/Khanu123/splunk-detection-lab) | More SPL detections, dashboard mockups, alert severity tuning |
+| [Microsoft Sentinel SIEM Lab](https://github.com/Khanu123/microsoft-sentinel-siem-lab) | More KQL analytics, Sentinel incident workflow, workbook examples |
+| [Azure Security Posture Reviewer](https://github.com/Khanu123/azure-security-posture-reviewer) | More Azure checks, CSV/Markdown reporting, policy mapping |
 | [Cloud IAM Risk Analyzer](https://github.com/Khanu123/cloud-iam-risk-analyzer) | Terraform/IaC support and SARIF-style output |
 | [Phishing Email Analyzer](https://github.com/Khanu123/phishing-email-analyzer) | URL reputation enrichment and attachment hash extraction |
 | [Vulnerability Intelligence Prioritizer](https://github.com/Khanu123/vuln-intel-prioritizer) | EPSS-style scoring and CSV import/export |
@@ -45,6 +54,9 @@ I am actively improving these projects over time:
 | Project | Focus |
 | --- | --- |
 | [Sentinel SOC Dashboard](https://github.com/Khanu123/sentinel-soc-dashboard) | Alert triage, SOC case prioritisation, MITRE context, HTML/CSV/JSON/Markdown reports |
+| [Splunk Detection Lab](https://github.com/Khanu123/splunk-detection-lab) | SPL detections, synthetic auth logs, brute-force/password-spray logic, analyst playbooks |
+| [Microsoft Sentinel SIEM Lab](https://github.com/Khanu123/microsoft-sentinel-siem-lab) | KQL analytics, Sentinel-style sample logs, MITRE mapping, incident triage |
+| [Azure Security Posture Reviewer](https://github.com/Khanu123/azure-security-posture-reviewer) | Azure storage, NSG, Key Vault, and public IP posture review with remediation |
 | [Cloud IAM Risk Analyzer](https://github.com/Khanu123/cloud-iam-risk-analyzer) | AWS IAM least-privilege review, public principal detection, MFA condition checks |
 | [Phishing Email Analyzer](https://github.com/Khanu123/phishing-email-analyzer) | Email header analysis, suspicious URLs, SPF/DKIM/DMARC failure review |
 | [Vulnerability Intelligence Prioritizer](https://github.com/Khanu123/vuln-intel-prioritizer) | CVE risk scoring using severity, exploit status, exposure, and asset criticality |
@@ -63,7 +75,10 @@ I am actively improving these projects over time:
 - Git and GitHub
 - Nmap
 - Log analysis
+- Splunk SPL
+- Microsoft Sentinel KQL
 - Web security fundamentals
+- Azure security posture review
 - AWS IAM security concepts
 - MITRE ATT&CK
 - Technical documentation
@@ -71,10 +86,11 @@ I am actively improving these projects over time:
 
 ## Currently Learning
 
-- Microsoft Sentinel alert triage concepts
-- Splunk search and detection logic
+- Microsoft Sentinel incident handling and KQL analytics
+- Splunk search, dashboards, and detection tuning
 - Sigma rule structure
 - YARA basics for defensive file triage
+- Azure security posture management
 - AWS IAM least-privilege review
 - Python security automation and report generation
 
