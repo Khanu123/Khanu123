@@ -4,6 +4,20 @@ Cyber Security graduate building practical defensive security tools with Python.
 
 I use GitHub as my public learning and project workspace: I build, document, test, and improve small security tools that map to real junior SOC, cyber analyst, cloud security, and AppSec workflows.
 
+## Recruiter / Employer Starting Points
+
+| What to review | Best project |
+| --- | --- |
+| SOC triage and incident reporting | [Sentinel SOC Dashboard](https://github.com/Khanu123/sentinel-soc-dashboard) |
+| Splunk detection logic | [Splunk Detection Lab](https://github.com/Khanu123/splunk-detection-lab) |
+| Microsoft Sentinel and KQL | [Microsoft Sentinel SIEM Lab](https://github.com/Khanu123/microsoft-sentinel-siem-lab) |
+| Cloud security posture | [Azure Security Posture Reviewer](https://github.com/Khanu123/azure-security-posture-reviewer) |
+| IAM risk review | [Cloud IAM Risk Analyzer](https://github.com/Khanu123/cloud-iam-risk-analyzer) |
+| Phishing investigation | [Phishing Email Analyzer](https://github.com/Khanu123/phishing-email-analyzer) |
+| Vulnerability prioritisation | [Vulnerability Intelligence Prioritizer](https://github.com/Khanu123/vuln-intel-prioritizer) |
+
+Each flagship repository now includes screenshots, tests or validation logic, safe sample data, an employer review guide, and a roadmap.
+
 ## Current Focus
 
 - SOC alert triage and analyst reporting
