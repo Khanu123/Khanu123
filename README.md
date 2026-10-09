@@ -8,6 +8,7 @@ I use GitHub as my public learning and project workspace: I build, document, tes
 
 | What to review | Best project |
 | --- | --- |
+| DevOps / DevSecOps delivery | [DevOps Deployment Lab](https://github.com/Khanu123/devops-deployment-lab) |
 | SOC triage and incident reporting | [Sentinel SOC Dashboard](https://github.com/Khanu123/sentinel-soc-dashboard) |
 | Splunk detection logic | [Splunk Detection Lab](https://github.com/Khanu123/splunk-detection-lab) |
 | Microsoft Sentinel and KQL | [Microsoft Sentinel SIEM Lab](https://github.com/Khanu123/microsoft-sentinel-siem-lab) |
@@ -53,7 +54,7 @@ I am actively improving these projects over time:
 
 | Project | Current Improvement Area |
 | --- | --- |
-| DevOps Deployment Lab - Sentinel SOC Dashboard (planned) | Docker, Terraform, AWS CI/CD, monitoring, security scans, and rollback |
+| [DevOps Deployment Lab](https://github.com/Khanu123/devops-deployment-lab) | Implemented and CI-verified; live AWS validation awaits account setup |
 | [Sentinel SOC Dashboard](https://github.com/Khanu123/sentinel-soc-dashboard) | Time-window grouping, richer case evidence, dashboard polish |
 | [Splunk Detection Lab](https://github.com/Khanu123/splunk-detection-lab) | More SPL detections, dashboard mockups, alert severity tuning |
 | [Microsoft Sentinel SIEM Lab](https://github.com/Khanu123/microsoft-sentinel-siem-lab) | More KQL analytics, Sentinel incident workflow, workbook examples |
@@ -64,25 +65,19 @@ I am actively improving these projects over time:
 | [Web Security Posture Auditor](https://github.com/Khanu123/web-security-posture-auditor) | More header checks and clearer remediation guidance |
 | [Security Research Notes](https://github.com/Khanu123/security-research-notes) | Short defensive notes, detection basics, and weekly learning updates |
 
-## Planned DevOps Project
+## DevOps / DevSecOps Project
 
-### DevOps Deployment Lab - Sentinel SOC Dashboard
+### [DevOps Deployment Lab - Sentinel SOC Dashboard](https://github.com/Khanu123/devops-deployment-lab)
 
-**Status:** Planned. This project will extend my existing [Sentinel SOC Dashboard](https://github.com/Khanu123/sentinel-soc-dashboard) with a reproducible deployment and operations workflow.
+**Status:** Implementation complete and verified. Application tests, Linux Docker smoke/recovery checks, Terraform validation/mock tests, image vulnerability gating and secret scanning pass in GitHub Actions. Live AWS deployment has not been performed; account setup is documented separately.
 
-**Goal:** Build practical DevOps and DevSecOps experience by packaging, deploying, monitoring, and recovering a Python application.
+- A responsive Python SOC web service with synthetic data, JSON API, liveness/readiness, release metadata and Prometheus-format metrics.
+- Non-root Docker packaging and a repeatable Docker Compose setup with a read-only filesystem and resource limits.
+- Terraform AWS configuration for VPC, ALB, ECS Fargate, ECR, runtime IAM, encrypted/versioned state and CloudWatch monitoring.
+- GitHub Actions CI plus manual OIDC image publication/deployment and immutable-image rollback workflows.
+- Actual process/container recovery evidence, screenshots, an architecture diagram, security tradeoffs, runbooks and cost/teardown instructions.
 
-**Planned stack:** Linux, Docker, Docker Compose, GitHub Actions, Terraform, AWS, and CloudWatch.
-
-- Containerise the dashboard and provide a repeatable local setup with Docker Compose.
-- Create AWS infrastructure with Terraform, including networking, least-privilege IAM, and application hosting.
-- Build a CI/CD pipeline that runs tests, scans dependencies and container images, and builds and deploys versioned releases.
-- Use GitHub Actions OIDC for AWS authentication rather than storing long-lived AWS access keys.
-- Add health checks, centralised logs, monitoring, and a documented rollback procedure.
-- Demonstrate a failed deployment and recovery using synthetic data, with troubleshooting notes and evidence.
-- Publish an architecture diagram, setup instructions, estimated running costs, and cloud teardown instructions.
-
-**Completion evidence:** A reproducible deployment, pipeline results, monitoring screenshots, a tested rollback, and a short technical case study. Deployment and implementation are planned; this entry does not claim they are complete.
+[Repository](https://github.com/Khanu123/devops-deployment-lab) | [Verified CI run](https://github.com/Khanu123/devops-deployment-lab/actions/runs/38005804206) | [Case study](https://github.com/Khanu123/devops-deployment-lab/blob/main/docs/case-study.md) | [Validation evidence](https://github.com/Khanu123/devops-deployment-lab/blob/main/docs/validation.md)
 
 ## Flagship Cybersecurity Projects
 
