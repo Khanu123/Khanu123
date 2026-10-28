@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+<title id="title">Umar Khan Muhammad</title>
+<desc id="desc">Cyber Security graduate. SOC analysis, detection logic, and Python automation. Crawley and London, UK.</desc>
+<rect width="1200" height="280" rx="20" fill="#0b1424"/>
+<path d="M900 0v280M980 0v280M1060 0v280M1140 0v280M840 60h360M840 140h360M840 220h360" stroke="#172b43" stroke-width="1"/>
+<circle cx="1040" cy="140" r="94" fill="none" stroke="#24435d" stroke-width="2"/>
+<circle cx="1040" cy="140" r="64" fill="none" stroke="#27556c" stroke-width="2"/>
+<path d="m1012 140 20 20 38-44" fill="none" stroke="#64dfcb" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="55" y="51" width="44" height="4" rx="2" fill="#64dfcb"/>
+<text x="55" y="110" font-family="Segoe UI,Arial,sans-serif" font-size="47" font-weight="700" fill="#f0f6fc">UMAR KHAN MUHAMMAD</text>
+<text x="58" y="157" font-family="Segoe UI,Arial,sans-serif" font-size="24" fill="#93c5fd">Cyber Security graduate</text>
+<text x="58" y="198" font-family="Segoe UI,Arial,sans-serif" font-size="21" fill="#b7c6d9">SOC analysis / Detection logic / Python automation</text>
+<text x="58" y="238" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#8ea4bb">CRAWLEY / LONDON, UK</text>
+</svg>
