@@ -27,17 +27,25 @@ The SOC dashboard exercise starts with an approved scanner receiving **priority 
 
 The same exercise exposed alerts being merged across different days. The revised implementation uses bounded correlation windows and keeps incomplete identities separate.
 
-**1,014 synthetic alerts · 10 validation checks · 18 unit tests**
+**1,014-alert regression exercise · 3 investigation scenarios · 34 unit tests**
 
 [Read the investigation](https://github.com/Khanu123/sentinel-soc-dashboard/blob/main/docs/validation/investigation.md) · [Inspect the results](https://github.com/Khanu123/sentinel-soc-dashboard/blob/main/docs/validation/extended-results.json) · [View CI](https://github.com/Khanu123/sentinel-soc-dashboard/actions)
 
 > These are reproducible synthetic lab results, not operational detection accuracy. Live Splunk and Microsoft Sentinel query validation remains pending. The public insider-threat project uses a small sanitised sample.
 
+**Input quality:** strict row validation, exact-event deduplication, and explicit partial-load diagnostics. The scenario fixture accounts for all 15 rows: 11 accepted alerts, one duplicate, and three rejected rows.
+
+[Follow the walkthrough](https://khanu123.github.io/investigations.html) · [Review the input-handling tests](https://github.com/Khanu123/sentinel-soc-dashboard/blob/main/tests/test_ingestion.py)
+
 ## Technical focus
 
-**Security analysis:** alert triage, log analysis, false-positive review, ATT&CK context, remediation reporting  
-**Automation and detection:** Python, unit testing, GitHub Actions, Splunk SPL, Sentinel KQL  
-**Supporting labs:** AWS IAM, Azure posture review, Docker, Terraform, and CI/CD
+| Skill | Evidence |
+| :--- | :--- |
+| Investigation and false-positive review | [Three contrasting cases](https://github.com/Khanu123/sentinel-soc-dashboard/blob/main/docs/validation/walkthrough.md) |
+| Python input handling and testing | [Validation module](https://github.com/Khanu123/sentinel-soc-dashboard/blob/main/src/sentinel_soc_dashboard/ingestion.py) · [34-test suite](https://github.com/Khanu123/sentinel-soc-dashboard/blob/main/tests) |
+| Correlation and reporting | [30-minute grouping and HTML escaping](https://github.com/Khanu123/sentinel-soc-dashboard/blob/main/src/sentinel_soc_dashboard/core.py) |
+| Detection logic | [SPL searches](https://github.com/Khanu123/splunk-detection-lab/tree/main/spl) · [KQL queries](https://github.com/Khanu123/microsoft-sentinel-siem-lab/tree/main/kql) |
+| Reproducible setup | [Clean-install walkthrough](https://github.com/Khanu123/sentinel-soc-dashboard/blob/main/docs/validation/walkthrough.md) |
 
 <details>
 <summary><strong>More projects — cloud security, DevOps, and analysis tools</strong></summary>
@@ -73,4 +81,4 @@ Additional Forage simulations cover phishing, risk assessment, and IAM.
 
 ---
 
-**Next:** document live SIEM query execution, improve malformed-input handling and deduplication, and validate the cloud deployment.
+**Next:** document live SIEM query execution, test against richer telemetry, and validate the cloud deployment.
